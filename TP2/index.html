@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/btn-displayer.js"></script>
+    <script src="js/Cargar.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor-loader">
+        <div id="porcentaje">
+        </div>
+        <div class="loader">
+        </div>
+    </div>
+    <header>
+        <div class="menu">
+            <button class="btn-menu" id="btn_menu">&#9776</button>
+           <img class="logo" src="img/logo.jpg" alt="">
+        </div>
+
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar_menu">x</button>
+            <ul class="nav-li">
+                <li>Menu Principal</li>
+                <li>Libreria</li>
+                <li>Novedades</li>
+                <li>Random</li>
+
+                <h2>Categorias</h2>
+
+                <li>Acción</li>
+                <li>Aventura</li>
+                <li>Deportes</li>
+                <li>Estrategia</li>
+                <li>Arcade</li>
+                <li>Ver más...</li>
+            </ul>
+        </nav>
+
+        <form class="barra-busq">
+            <input type="text" placeholder="Buscar juegos...">
+            <button class="busq-btn"><img src="img/lupa.png" alt=""></button>
+        </form>
+        <button class="user">
+            <img src="img/user.png" alt="">
+            <p>USER 1234</p>
+        </button>
+    </header>
+    <div class="container">
+        <div class="img-principal">
+            <img src="img/4-en-linea.png" alt="">
+        </div>
+        <h1>Recomendados para vos</h1>
+        <div class="carousel">
+            <div class="card">
+                <img src="img/archery-world-tour-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Archery: World tour</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/time-shooter-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Time Shooter</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/raft-life-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Raft Life</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/jump-up-3d-basketball-game_16x9-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Jump Up 3D</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/buildnow-gg-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Buildnow GG</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cover-1586360611838.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Basket Bros</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cover-1583231506155.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Barketball Star</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/max-vs-gangsters-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Max vs. Ganster</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+        </div>
+        <h1>Juegos Gratis</h1>
+        <div class="carousel">
+            <div class="card">
+                <img src="img/4-en-linea.png" alt="">
+                <button class="btn-jugar"><a href="game.html">Jugar Ahora</a></button>
+                <div class="card-info">
+                    <p class="titulo">4 en Linea</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/mine-clone-cover.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Mine Clone</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/deck-adventurers-chapter-1-cover.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Deck Adventures</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/eternal-road-cover.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Eternal Road</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/time-shooter-cover.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Time Shooter</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cover-1583231506155.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Basketball Stars</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/tennis-masters-cover.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Tennis Masters</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/coverundefined-1694146448364.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Table Tennis</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+        </div>
+        <h1>Más Jugados</h1>
+        <div class="carousel">
+            <div class="card">
+                <img src="img/wrestle-bros-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Wrestle Bros</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/parrot-simulator-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Parrot Simulator</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/QT3ANH5W5FD47HQ4Q4LMGOOTZU.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Genshin Impact</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/stellar-mines-space-miner-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Stellar Miner</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/coverundefined-1694146412099.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Skill Fite.io</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cover-1588010858655.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Force Bullet</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/mini-golf-club-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Mini Golf Club</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/zombie-hunter-cover.webp" alt="">
+                <button class="btn-carrito">Añadir carrito <img src="img/cart.png" alt=""></button>
+                <div class="card-info">
+                    <p class="titulo">Zombie Hunter</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+        </div>
+        <h1>Mis Juegos</h1>
+        <div class="carousel">
+            <div class="card">
+                <img src="img/QT3ANH5W5FD47HQ4Q4LMGOOTZU.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Genshin Impact</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cover-1589881352377.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Game of Thrones</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cover-1617979239759.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Final Fantasy XIV</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Raid shadows legend.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Raid Shadows Legend</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/mystery-mansion-puzzle-escape-cover.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Mystery Mansion</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/sniper-mission-blj-cover.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Snipper Mission</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cover-1655215853507.webp" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Time Shooter 2</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img" alt="">
+                <button class="btn-jugar">Jugar Ahora</button>
+                <div class="card-info">
+                    <p class="titulo">Archery: World tour</p>
+                    <p class="precio">ARS$ 99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="logo-footer">
+            <img class="img-logo" src="img/logo2.png" alt="Logo">
+        </div>
+        <nav class="footer-nav">
+            <ul class="footer-li">
+                <h3>LINKS</h3>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Gratuitos</a></li>
+                <li><a href="#">Destacados</a></li>
+                <li><a href="#">Premium</a></li>
+            </ul>
+            <ul class="footer-li">
+                <h3>EMPRESA</h3>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Terminos y condiciones</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Cookies</a></li>
+            </ul>
+            <ul class="footer-li">
+                <h3>ASISTENCIA</h3>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Acuerdo de subscription</a></li>
+                <li><a href="#">Cancelar subscription</a></li>
+            </ul>
+            <ul class="footer-li">
+                <h3>CONTACTO</h3>
+                <li>+1141410931</li>
+                <li>Av Epaña 1902</li>
+            </ul>
+        </nav> 
+        <div class="social-network">
+            <a href="https://www.facebook.com" target="_blank"><img class="img-footer" src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/" target="_blank"><img class="img-footer" src="img/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="img-footer" src="img/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
